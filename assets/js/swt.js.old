@@ -1,0 +1,86 @@
+//ç½‘ç«™é¡¶éƒ¨weixin
+// document.writeln('<script src=assets/js/jquery-3.3.1.min.js charset="utf-8"></script>');
+document.writeln("<style>");
+document.writeln("  h1,h2,h3,h4,h5,h6,{ font-weight:normal;}");
+document.writeln("  i{ font-style:normal;}");
+document.writeln("  .top_weixin{ width:100%; height:50px; position:fixed; top:0; left:0; display:none; font-family:\"å¾®è½¯é›…é»‘\";  z-index:99999999;}");
+document.writeln("  .top_weixin a{ width:100%; height:100%; display:block; color:#fff;}");
+document.writeln("  .weixin_bg{ width:100%; height:50px; background:#000; opacity:0.8;}");
+document.writeln("  .weixin_dh{ width:640px; height:50px; position:absolute; left:0; top:0;}");
+// document.writeln("  .weixin_dh i{ display:block; width:25px; height:25px; float:left; margin:8px 0 0 12px; background:url(assets/js/img/qqIcon.png) no-repeat center; background-size:100%; border-radius:5px;}");
+document.writeln("  .weixin_dh>div{ height:30px; float:left; margin-left:10px; line-height:15px;}");
+document.writeln("  .weixin_dh>div p{ font-weight:600; margin-top:6px; height: 16px;}");
+document.writeln("  .weixin_dh>div p strong{ height:100%; font-size:14px; float:left; color:#fff; }");
+document.writeln("  .weixin_dh>div p>span{  font-size:14px; float:left; color:#D4D4D4;  line-height:14px; margin-left:8px;}");
+document.writeln("  .weixin_dh>div h3{  font-size:14px; margin-top:-15px;  font-weight:normal; color:#fff;}");
+document.writeln("</style>");
+
+document.writeln("<div class=\"top_weixin\">");
+document.writeln(" <a href=\"javascript:void(0)\" onclick=\"onKST('testing');\" target=\"_blank\">");
+document.writeln("    <div class=\"weixin_bg\">");
+document.writeln("    </div> ");
+document.writeln("    <div class=\"weixin_dh\">");
+document.writeln("        <i></i>");
+
+// Font Header Pop Up
+document.writeln("        <div>");
+document.writeln("           <p>");
+document.writeln("             <strong style='font-weight: bold;'>Konsultasi Sekarang  masalah anda sekarang          </strong>");
+document.writeln("             <span>     </span> ");
+// document.writeIn("        <br>");
+document.writeln("           	<h3> Dokter : Ada yang bisa saya bantu?</h3>");
+document.writeln("           </p><br/>");
+document.writeln("        </div>");
+// End Font Header Pop up
+// 
+document.writeln("    </div>");
+document.writeln("  </a>");
+document.writeln("</div>");
+setInterval(function() { $(".top_weixin").slideToggle(300) }, 5000);
+
+//ç½‘ç«™å³éƒ¨æ¼‚æµ®
+document.writeln("<style type=\"text/css\">");
+document.writeln("#contact {width: 44px; position: fixed;  bottom:0; margin-bottom:30%; right: 5px; padding: 1px; z-index: 900;}");
+document.writeln("#contact .sz {width: 22px; height: 22px;border-radius: 11px; background: #ca0000;font-size: 12px; color: #fff; text-align: center;line-height: 22px; position: absolute; top: 45px; right: -2px; z-index: 990;}");
+document.writeln("#contact a { display: block; width: 44px; height: 45px; background: url(assets/js/img/hm_icon.png) no-repeat center; background-size: 100%;  margin-bottom: 5px; overflow: hidden; position: relative; z-index: 99;}");
+document.writeln("#contact a.zx { background-position: 0 -54px;}");
+document.writeln("#contact a.tel {background-position: 0 0;}");
+document.writeln("#contact a.toped { background-position: 0 -107px;}");
+document.writeln("</style>");
+// document.writeln("<div id=\"contact\"><div class=\"sz\">8</div><a class=\"tel\" href=\"tel:081362621616\"></a><a class=\"zx\" href=\"javascript:void(0)\" onclick=\"onKST('åº•éƒ¨é¢„çº¦æŒ‚å·');\"></a><a class=\"toped\" href=\"javascript:scroll(0,0)\"></a></div>");
+
+//åº•éƒ¨å›ºå®šæ¼‚æµ®
+document.writeln('<img src="assets/js/img/bottom.png" style="display:block;width:100%; max-width:640px;">');
+document.writeln("<style>");
+document.writeln(".swt0304-wrap{display: block; z-index:9999; position:fixed;bottom: 0;left: 0;width: 100%;}");
+document.writeln(".swt0304{max-width: 640px;width: 100%;margin: 0 auto;position: relative;}");
+document.writeln(".swt0304 a9,.swt0304 span{display: block;padding: 3% 0;width: 20%;position: absolute}");
+document.writeln(".swt0304-i1{width: 100%;display:block}");
+document.writeln(".swt0304 .swt0304 .swt0304-a2{bottom: 0%;right: 0%;width:100%;padding:25.5% 0}");
+document.writeln(".swt0304 .swt0304-a3{z-index:99999; top: 0%;right: 0%;width:8%; padding:3.5% 0;cursor:pointer}");
+document.writeln(".swt0304-wrap2{display: block; z-index:99999; position: fixed;bottom: 0;left: 0;width: 100%; }");
+document.writeln(".swt0304-2{max-width: 640px !important; position: relative;}");
+document.writeln(".swt0304-2 img{width: 100%;display:block}");
+document.writeln(".swt0304-2 a{display: block;position:absolute;}");
+document.writeln(".swt0304-2-a1{left:0;width:33%;bottom:0;padding:5% 0;}");
+document.writeln(".swt0304-2-a2{left:33%;width:33%;bottom:0;padding:5% 0;}");
+document.writeln(".swt0304-2-a3{left:67%;width:33%;bottom:0;padding:5% 0;}");
+document.writeln(".swt0304-2-a4{width:100%;bottom:30%;padding:11% 0;}</style>");
+// End Style
+
+// Footer Image
+document.writeln("<div id=\'swt0304\' class=\'swt0304-wrap\'>");
+document.writeln("<div class=\'swt0304-wrap2\'>");
+document.writeln("<div class=\'swt0304-2\'>");
+
+// For Bottom Footer
+document.writeln("<img src=\'assets/js/img/bottom1.png\' alt=\'\'>");
+// End Bottom Footer
+
+document.writeln("<a class=\'swt0304-2-a4\' href=\'javascript:void(0)\' onclick=\'openZoosUrl()\' target=\'_blank\'></a>");
+document.writeln("<a class=\'swt0304-2-a1\' href=\'javascript:void(0)\' onclick=\'openZoosUrl()\'></a>");
+document.writeln("<a class=\'swt0304-2-a2\' href=\'javascript:void(0)\' onclick=\'openZoosUrl()\' target=\'_blank\'></a>");
+document.writeln("<a class=\'swt0304-2-a3\' href=\'tel:081362621616\'></a>");
+document.writeln("</div>");
+document.writeln("</div>");
+document.writeln("</div>");

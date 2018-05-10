@@ -1,0 +1,419 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    margin-top: 0px!important;
+    /*margin-bottom: 160px !important;*/
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+.fleft {
+    float: left;
+    margin: 0;
+}
+
+.fright {
+    float: right;
+}
+
+.ovh {
+    overflow: hidden;
+}
+
+.padd {
+    padding: 5% 6.25%;
+}
+
+.main_box {
+    width: 100%;
+    height: auto;
+    max-width: 640px !important;
+    min-width: 260px;
+    font-family: "Microsoft YaHei";
+    margin: auto;
+    left: auto;
+    right: auto;
+}
+
+.logo img,
+.banner img {
+    display: block;
+    width: 100%;
+}
+
+.main_title {
+    padding: 1% 0 2% 6.25%;
+    background: url(../img/index_08.jpg) bottom center no-repeat;
+}
+
+.main_title img {
+    margin-top: 1.3%;
+    width: 5.1%;
+    margin-right: 2%;
+}
+
+.main_title strong {
+    color: #282828;
+    font-size: 1.33em;
+}
+
+.main_title a {
+    color: #777;
+    line-height: 2em;
+    margin-right: 20px;
+}
+
+.main_nkrw ul li {
+    /*line-height: 2.3em;*/
+    line-height: 15px;
+    text-align: center;
+    margin-bottom: 0.6%;
+    height: 20px !important;
+    padding: 3% 5px;
+}
+
+.main_nkrw ul li a {
+    color: #fff;
+    font-size: 80%;
+}
+
+/*Edit*/
+/*.main_nkrw ul li.li1 {
+    background: #3856bc;
+    width: 56.4%;
+    min-height: 64px;
+}
+
+.main_nkrw ul li.li2 {
+    background: #0070c7;
+    width: 43%;
+    min-height: 64px;
+}
+
+.main_nkrw ul li.li3 {
+    background: #00a3bb;
+    width: 43.4%;
+    min-height: 64px;
+}
+
+.main_nkrw ul li.li4 {
+    background: #ff6e5d;
+    width: 56%;
+    min-height: 64px;
+}
+
+.main_nkrw ul li.li5 {
+    background: #c4560d;
+    width: 56%;
+    min-height: 64px;
+}
+
+.main_nkrw ul li.li6 {
+    background: #4cc303;
+    width: 43.4%;
+    min-height: 64px;
+}
+
+.main_nkrw ul li.li7 {
+    background: #00ab79;
+    width: 43.4%;
+    min-height: 64px;
+}
+
+.main_nkrw ul li.li8 {
+    background: #00b0c6;
+    width: 56%;
+    min-height: 64px;
+}*/
+/*Akhir Edit*/
+
+.main_nkrw ul li.li-long {
+    width: 56%;
+    min-height: 64px;
+}
+
+.main_nkrw ul li.li-short {
+    width: 43.4%;
+    min-height: 64px;
+}
+
+.main_jbdh .jbdh_mk1 {
+    margin-bottom: 4%;
+    background-color: silver;
+}
+
+.main_jbdh .jbdh_mk1 img {
+    width: 31.4%;
+}
+
+.main_jbdh .jbdh_mk1 ul {
+    width: 68.6%;
+    /*background-color: silver;*/
+    /*height: 128px;*/
+}
+
+.main_jbdh .jbdh_mk1 ul li {
+    width: 48.9%;
+    float: left;
+    margin-left: 0.8%;
+    text-align: center;
+    background: #f1f1f1;
+    /*background-color: silver;*/
+    line-height: 2.65em;
+    margin-bottom: 0.8%;
+    margin-top: 12px;
+    /*height: auto;*/
+    /*height: 30px; */
+    max-height: 50px;
+}
+
+.main_jbdh .jbdh_mk1 ul li a {
+    color: #777777;
+    width: auto;
+    /*font-size: 150%;*/
+}
+
+.main_mzzj .mzzj_txt {
+    color: #777;
+    line-height: 1.5em;
+}
+
+.main_mzzj .mzzj_nr1 {
+    padding: 5% 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.main_mzzj .mzzj_nr1 img {
+    width: 18.4%;
+    margin-right: 3%;
+}
+
+.main_mzzj .mzzj_nr1 div.fleft .p1 {
+    color: #ee7800;
+    font-size: 0.8em;
+    font-weight: bold;
+    top: 30px;
+}
+
+.main_mzzj .mzzj_nr1 div.fleft {
+    width: 50%;
+}
+
+.mzzj_nr1 div.fleft .p1 span {
+    color: #282828;
+    font-size: 1.45em;
+    font-weight: bold;
+}
+
+.main_mzzj .mzzj_nr1 font {
+    color: #777;
+}
+
+.main_mzzj .mzzj_nr1 div.fright {
+    width: 21%;
+    text-align: center;
+}
+
+.main_mzzj .mzzj_nr1 div.fright a {
+    display: block;
+    border-radius: 0.2em;
+    color: #fff;
+    line-height: 1.875em;
+    margin-top: 7%;
+}
+
+.main_mzzj .mzzj_nr1 div.fright a.a1 {
+    background: #09b780;
+}
+
+.main_mzzj .mzzj_nr1 div.fright a.a2 {
+    /*background: #ef7800;*/
+    /*background-color: #1194f6;*/
+    /*background-color: #795548;*/
+    /*background-color: silver;*/
+    color: #ef7800;
+    border: 1px solid #ef7800;
+}
+
+.main_mzzj .mzzj_nr1 div.fright a.a2:hover{
+    /*background-color: #1194f6;*/
+    border: 1px solid #1194f6;
+    color: #1194f6;
+    /*border: 1px solid #000;*/
+}
+
+.main_mzzj .mzzj_nr2 {
+    text-align: right;
+    padding-top: 3%;
+    color: #777;
+}
+
+.main_txzj .mzzj_txt {
+    color: #777;
+    line-height: 1.7em;
+}
+
+.main_txzj .mzzj_txt a {
+    color: #ef7800;
+}
+
+.main_txzj .txzj_nr1 {
+    padding: 5% 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.main_txzj .txzj_nr1 img {
+    width: 18.4%;
+}
+
+.main_txzj .txzj_nr1 p {
+    width: 55%;
+    padding-left: 3%;
+    line-height: 1.6em;
+    color: #777;
+    padding-top: 2%;
+}
+
+.main_txzj .txzj_nr1 p font b {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.main_txzj .txzj_nr1 a {
+    width: 22%;
+    background: #ef7800;
+    color: #fff;
+    border-radius: 0.2em;
+    text-align: center;
+    line-height: 1.8em;
+    margin-top: 7%;
+}
+
+.main_hzgx img {
+    display: block;
+    /*width: 100%;*/
+}
+
+.main_zljs .zljs_nr1 {
+    padding: 3% 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.main_zljs .zljs_nr1 a {
+    width: 45%;
+    display: block;
+}
+
+.main_zljs .zljs_nr1 a img {
+    width: 100%;
+}
+
+.main_hzhp .hzhp_bt {
+    color: #777;
+    font-size: 1.08em;
+}
+
+.main_hzhp .hzhp_bt img {
+    margin-right: 2%;
+    width: 4.8%;
+}
+
+.box_content {
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 3%;
+}
+
+.r_comments {
+    position: relative;
+    height: 7em;
+    color: #777;
+    height: 110px;
+}
+
+.r_comments ul li {
+    padding-top: 5%;
+    height: 6em;
+}
+
+.r_comments ul li img {
+    width: 25%;
+    margin-right: 5%;
+    margin-top: 1%;
+    float: left;
+}
+
+.r_comments ul li .p2 {
+    color: #777;
+    /* line-height: 1.7em; */
+    /* padding-top: 3%; */
+    margin-top: -15px;
+    margin-left: 5px;
+}
+
+.fright1 {
+    float: right;
+    color: #fff;
+}
+
+/*Media Screen*/
+@media screen and (min-width:320px) {
+    .main_box {
+        font-size: 12px
+    }
+}
+
+@media screen and (min-width:360px) {
+    .main_box {
+        font-size: 13.5px
+    }
+}
+
+@media screen and (min-width:375px) {
+    .main_box {
+        font-size: 14px
+    }
+}
+
+@media screen and (min-width:414px) {
+    .main_box {
+        font-size: 15.4px
+    }
+}
+
+@media screen and (min-width:480px) {
+    .main_box {
+        font-size: 18px
+    }
+}
+
+@media screen and (min-width:600px) {
+    .main_box {
+        font-size: 22.5px
+    }
+}
+
+@media screen and (min-width:640px) {
+    .main_box {
+        font-size: 24px
+    }
+}

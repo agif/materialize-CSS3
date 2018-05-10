@@ -1,0 +1,343 @@
+.ygxs_nav {
+    width: 100%;
+    left: 0;
+    left: 0;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    z-index: 9;
+    _position: absolute;
+    _top: expression(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight);
+    /*background-color: silver;*/
+}
+
+.yg_nav {
+    width: 100%;
+    /*padding-left: 10px;*/
+    /*display: inline-block;*/
+    /*background-color: red;*/
+    /*max-width: 640px;*/
+    /*max-width: 640px !important;*/
+    min-width: 320px;
+    font-family: "Microsoft YaHei";
+    overflow: hidden;
+    /*background: #f2f2f2;*/
+    border-bottom: 1px solid #eee;
+    /*background-color: green;*/
+    padding-left: 15px;
+}
+
+.yg_nav a {
+    /*display: inline-block;*/
+    /*background-color: #fff;*/
+    /*background-color: red;*/
+    float: left;
+    display: block;
+    width: 16%;
+    /*margin: 5px;*/
+    padding: 0;
+    font-size: 55%;
+    text-align: center;
+    line-height: 2.8em;
+    color: #333;
+    text-align: center;
+    /*border-top: 1px solid #1194f6;*/
+    /*border-bottom: 1px solid #1194f6;*/
+    /*text-decoration: underline;*/
+}
+
+.yg_nav a:hover{
+    /*background-color: #1194f6;*/
+    /*color: #1194f6;*/
+    color: #0B945E;
+    /*transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);*/
+    /*box-shadow: 0px 0px 6px rgba(17,148,248,0.5);*/
+    /*box-shadow: 0px 0px 6px rgba(0,0,0,0.5);*/
+    /*border-top: none !important;*/
+    /*border-bottom: none !important;*/
+    /*border-right: 1px solid #1194f6;*/
+    /*border-left: 1px solid #1194f6;*/
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    font-size: 0;
+    /*max-width: 640px;*/
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.header img {
+    width: 100%;
+}
+
+.footer {
+    width: 90%;
+    /*max-width: 640px;*/
+    min-width: 320px;
+    padding: 2% 0 4% 0;
+    font-family: "Microsoft YaHei";
+    overflow: hidden;
+    background: #F4F3F3;
+    margin: 0 auto;
+}
+
+.footer p.p11 {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 2em;
+    font-size: 1.2em;
+    color: #666;
+    padding-top: 1%;
+    text-align: center;
+    border-top: 1px solid #fff;
+}
+
+.footer p.p11 a {
+    color: #666;
+    padding: 0 1.8%;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.footer p.p2 {
+    line-height: 2em;
+    font-size: 1.1em;
+    color: #666666;
+    padding-bottom: 15px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.footer p.p2 a {
+    text-decoration: none;
+    color: #f00;
+}
+
+.footer div {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: 1px solid #E1DBDB;
+    padding-bottom: 3%;
+}
+
+.footer div ul li {
+    width: 25%;
+    /*min-height: 4.2em;*/
+    float: left;
+    list-style-type: none;
+}
+
+.footer div ul li a {
+    border: 1px solid #ccc;
+    /*min-height: 3.8em;*/
+    display: block;
+    width: 94%;
+    border-radius: 5px;
+    color: #666;
+}
+
+.footer div ul li a img {
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 25%;
+    margin-top: 10%;
+    float: left;
+}
+
+.footer div ul li a p {
+    line-height: 1.6em;
+    font-size: 0.9em;
+    padding-left: 5%;
+    padding-top: 8%;
+    float: left;
+    text-align: center;
+}
+
+.footer div ul li a p.ft_zx {
+    padding-left: 13%;
+}
+
+.footer_a {
+    width: 100%;
+    /*max-width: 640px;*/
+    min-width: 320px;
+    padding: 2% 0 10% 0;
+    font-family: "Microsoft YaHei";
+    overflow: hidden;
+    background: #F4F3F3;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2em;
+    font-size: 0.9em;
+}
+
+.pfbb {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000;
+    opacity: 0;
+    display: none;
+    font-family: "Microsoft YaHei";
+}
+
+.pfbb div {
+    width: 25%;
+    float: left;
+}
+
+.pfbb div a {
+    display: block;
+    line-height: 3.3em;
+    text-align: center;
+    border-right: 1px solid #272727;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/*for footer CSS*/
+.swt0304-wrap{display: block; z-index:9999; position:fixed;bottom: 0;left: 0;width: 100%;}
+.swt0304{max-width: 640px;width: 100%;margin: 0 auto;position: relative;}
+.swt0304 a9,.swt0304 span{display: block;padding: 3% 0;width: 20%;position: absolute}
+.swt0304-i1{width: 100%;display:block}
+.swt0304 .swt0304 .swt0304-a2{bottom: 0%;right: 0%;width:100%;padding:25.5% 0}
+.swt0304 .swt0304-a3{z-index:99999; top: 0%;right: 0%;width:8%; padding:3.5% 0;cursor:pointer}
+.swt0304-wrap2{display: block; z-index:99999; position: fixed;bottom: 0;left: 0;width: 100%; }
+.swt0304-2{max-width: 640px !important; position: relative;}
+.swt0304-2 img{width: 100%;display:block}
+.swt0304-2 a{display: block;position:absolute;}
+.swt0304-2-a1{left:0;width:33%;bottom:0;padding:5% 0;}
+.swt0304-2-a2{left:33%;width:33%;bottom:0;padding:5% 0;}
+.swt0304-2-a3{left:67%;width:33%;bottom:0;padding:5% 0;}
+.swt0304-2-a4{width:100%;bottom:30%;padding:11% 0;}
+
+/*For back to top*/
+#BounceToTop{
+   position:absolute;
+   bottom:30px;
+   right:-120px !important;
+   cursor:pointer;
+   display:none
+}
+
+#BounceToTop img{
+   width: 20%;
+}
+
+/*For Right Wechat*/
+#contact {width: 44px; position: fixed;  bottom:0; margin-bottom:30%; right: 5px; padding: 1px; z-index: 900;}
+#contact .sz {width: 22px; height: 22px;border-radius: 11px; background: #ca0000;font-size: 12px; color: #fff; text-align: center;line-height: 22px; position: absolute; top: 45px; right: -2px; z-index: 990;}
+#contact a { display: block; width: 44px; height: 45px; background: url("../js/img/hm_icon.png") no-repeat center; background-size: 100%;  margin-bottom: 5px; overflow: hidden; position: relative; z-index: 99;}
+#contact a.zx { background-position: 0 -54px;}
+#contact a.tel {background-position: 0 0;}
+#contact a.toped { background-position: 0 -107px;}
+
+
+/*For Top Black Chat Header*/
+  /*h1,h2,h3,h4,h5,h6,{ font-weight:normal;}*/
+  i{ font-style:normal;}
+  .top_weixin{ width:100%; height:50px; position:fixed; top:0; left:0; display:none; z-index:99999999;}
+  .top_weixin a{ width:100%; height:100%; display:block; color:#fff;}
+  .weixin_bg{ width:100%; height:50px; background:#000; opacity:0.8;}
+  .weixin_dh{ width:640px; height:50px; position:absolute; left:0; top:0;}
+  /*.weixin_dh i{ display:block; width:25px; height:25px; float:left; margin:8px 0 0 12px; background:url(../js/img/qqIcon.png) no-repeat center; background-size:100%; border-radius:5px;}*/
+  /* .weixin_dh>div{ height:30px; float:left; margin-left:10px; line-height:15px;} */
+  /* .weixin_dh>div p{ font-weight:600; margin-top:6px; height: 16px;} */
+  /* .weixin_dh>div p strong{ height:100%; font-size:14px; float:left; color:#fff; } */
+  /* .weixin_dh>div p>span{  font-size:14px; float:left; color:#D4D4D4;  line-height:14px; margin-left:8px;} */
+  /* .weixin_dh>div h3{  font-size:14px; margin-top:-15px;  font-weight:normal; color:#fff;} */
+
+
+/*Media Screen*/
+@media screen and (min-width:480px) {
+    .pfbb {
+        font-size: 21px
+    }
+}
+
+@media screen and (min-width:640px) {
+    .pfbb {
+        font-size: 24px
+    }
+}
+
+@media screen and (min-width:320px) {
+    .pfbb {
+        font-size: 14px
+    }
+}
+
+@media screen and (min-width:320px) {
+    .footer {
+        font-size: 12px
+    }
+    .footer_a {
+        font-size: 12px
+    }
+    #zh_ztgg div:nth-of-type(1) {
+        height: 8.5em
+    }
+}
+
+@media screen and (min-width:360px) {
+    #zh_ztgg div:nth-of-type(1) {
+        height: 9em
+    }
+}
+
+@media screen and (min-width:480px) {
+    .footer_a {
+        font-size: 21px
+    }
+    #zh_ztgg div:nth-of-type(1) {
+        height: 14em
+    }
+}
+
+@media screen and (min-width:640px) {
+    .footer {
+        font-size: 24px
+    }
+    .footer_a {
+        font-size: 24px
+    }
+    #zh_ztgg div:nth-of-type(1) {
+        height: 17em
+    }
+}
+
+@media screen and (min-width:320px) {
+    .yg_nav {
+        font-size: 14px
+    }
+}
+
+@media screen and (min-width:360px) {
+    .yg_nav {
+        font-size: 16px
+    }
+}
+
+@media screen and (min-width:480px) {
+    .yg_nav {
+        font-size: 18px
+    }
+}
+
+@media screen and (min-width:640px) {
+
+    .yg_nav {
+        font-size: 28px
+    }
+}
